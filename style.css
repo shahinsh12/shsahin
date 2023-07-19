@@ -1,0 +1,175 @@
+*
+{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}*
+
+.navvar1{text-align: center;
+  background-color:  #f857a6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;}
+.navvar1 ul li{display: inline-block; position: relative; z-index: 1;}
+
+.navvar1 ul li a
+{text-decoration: none;
+width: 100%;
+height: 100%;
+display: inline-block;
+padding: 10px;
+color: gold;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+
+.navvar1 ul li::before
+{content: '';transition: 300ms;
+  
+background-color: #f7ff00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #db36a4, #f7ff00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #db36a4, #f7ff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+
+ width: 100%;
+height: 100%;
+position: absolute;
+z-index: -1;
+}
+
+
+
+.navvar1 ul li::after
+{content: '';transition: 300ms;
+  
+
+    background: #cc2b5e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+ width: 100%;
+height: 100%;
+position: absolute;
+z-index: -1;}
+
+
+.navvar1 ul li:hover::after
+{height: 0%;
+width: 0%;}
+
+
+
+
+
+.navvar1 ul li:hover::before
+{height: 0%;
+width: 0%;}
+
+/* blog1 finish */
+
+.navvar2{background-color: black;
+text-align: center;
+
+}
+.navvar2 ul li {
+ display: inline-block;
+  position: relative;
+  z-index: 1;
+
+}
+
+
+.navvar2 ul li a{
+ text-decoration: none;
+color: aliceblue;
+ width: 100%;
+ height: 50%;
+padding: 20px;
+display: inline-block;}
+
+
+
+.navvar2 ul li::before{content: '';
+transition: 300ms;
+
+background-color:  #e9d362;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #333333, #e9d362);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #333333, #e9d362); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+width: 0%;
+height: 100%;
+position: absolute;
+z-index: -1;
+}
+
+
+
+
+.navvar2 ul li:hover::before{width: 100%;}
+
+
+/* nav2 finish */
+
+
+.navvar3{background-color:  #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+  
+    text-align: center;
+    
+    }
+    .navvar3 ul li {
+     display: inline-block;
+      position: relative;
+      z-index: 1;
+    
+    }
+    
+    
+    .navvar3 ul li a{
+     text-decoration: none;
+    color: deeppink;
+     width: 100%;
+     height: 50%;
+    padding: 10px;
+    display: inline-block;}
+    
+    
+    
+    .navvar3 ul li::before{content: '';
+    transition: 300ms;
+    
+background-color:  #603813;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+    width: 0%;
+    height:0%;
+    position: absolute;
+    z-index: -1;
+bottom: 0;
+top: 0%;
+    }
+    
+    
+    
+    
+    .navvar3 ul li:hover::before{height: 100%; width: 100%;}
+
+
+
+    .navvar3 ul li::after{content: '';
+        transition: 300ms;
+        
+    background-color:  #603813;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+        width: 0%;
+        height:100%;
+        position: absolute;
+        z-index: -1;
+    bottom: 0%;
+   right: 0%;
+        }
+        .navvar3 ul li:hover::after{height: 100%; width: 100%;}
